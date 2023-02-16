@@ -1,0 +1,11 @@
+demo-db:
+  target: dev
+  outputs:
+    dev:
+      type: sqlserver
+      port: 1433
+      driver: 'ODBC Driver 17 for SQL Server'
+      server:
+      database:
+      schema:
+      authentication: auto
